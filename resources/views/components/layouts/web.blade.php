@@ -13,11 +13,18 @@
 </head>
 
 <body>
-    <!-- Your content -->
-    {{ $slot }}
+    <div class="min-h-screen flex flex-col">
+        <!-- Navbar -->
+        <x-web.navbar />
 
-    <!-- Footer -->
-    <x-web.footer />
+        <!-- Content -->
+        <main class="grow">
+            {{ $slot }}
+        </main>
+
+        <!-- Footer -->
+        <x-web.footer />
+    </div>
 </body>
 
 </html>
