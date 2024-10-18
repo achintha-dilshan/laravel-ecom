@@ -1,7 +1,8 @@
 @props(['type' => 'button', 'variant' => 'primary'])
 
 @php
-    $commonClasses = 'relative text-sm focus:outline-none disabled:opacity-25 transition ease-in-out duration-150';
+    $commonClasses =
+        'relative block text-sm focus:outline-none disabled:opacity-25 transition ease-in-out duration-150';
 
     $classes =
         $commonClasses .
