@@ -14,8 +14,8 @@
 
 <body>
     <div class="min-h-screen flex flex-col">
-        <!-- Navbar -->
-        <x-web.navbar />
+        <!-- Header -->
+        <x-web.header />
 
         <!-- Content -->
         <main class="grow">
