@@ -1,24 +1,23 @@
 @props(['type' => 'button', 'variant' => 'primary'])
 
 @php
-    $default = 'relative text-sm focus:outline-none disabled:opacity-25 transition ease-in-out duration-150';
+    $commonClasses = 'relative text-sm focus:outline-none disabled:opacity-25 transition ease-in-out duration-150';
 
-    if ($variant == 'primary') {
+    $classes =
+        $commonClasses .
+        ' px-4 py-2 font-medium bg-primary-700 border border-transparent rounded-md text-white hover:bg-primary-800 focus:bg-primary-800 active:bg-primary-900';
+
+    if (strtolower($variant) == 'secondary') {
         $classes =
-            $default .
-            ' px-4 py-2 font-medium bg-primary-700 border border-transparent rounded-md text-white hover:bg-primary-800 focus:bg-primary-800 active:bg-primary-900';
+            $commonClasses . ' px-4 py-2 bg-white border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50';
     }
 
-    if ($variant == 'secondary') {
-        $classes = $default . ' px-4 py-2 bg-white border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50';
+    if (strtolower($variant) == 'soft') {
+        $classes = $commonClasses . ' px-4 py-2 bg-gray-100 rounded-md text-gray-700 hover:bg-gray-200';
     }
 
-    if ($variant == 'soft') {
-        $classes = $default . ' px-4 py-2 bg-gray-100 rounded-md text-gray-700 hover:bg-gray-200';
-    }
-
-    if ($variant == 'icon') {
-        $classes = $default . ' p-2 bg-white rounded-full text-gray-700 hover:bg-gray-100';
+    if (strtolower($variant) == 'icon') {
+        $classes = $commonClasses . ' p-2 bg-white rounded-full text-gray-700 hover:bg-gray-100';
     }
 @endphp
 
