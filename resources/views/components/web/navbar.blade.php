@@ -1,8 +1,11 @@
-<nav class="bg-white  fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
+<nav class="bg-white w-full z-20 top-0 start-0 border-b border-gray-200 ">
     <div class="max-w-screen-xl flex items-center justify-between lg:space-x-12 gap-4 mx-auto p-4">
         <div class="flex items-center gap-4">
             <x-button variant="icon"
                       title="Menu"
+                      data-drawer-target="category-drawer"
+                      data-drawer-show="category-drawer"
+                      aria-controls="category-drawer"
                       class="md:hidden">
                 <x-lucide-menu class="h-5 w-5" />
             </x-button>
@@ -16,12 +19,18 @@
             </a>
         </div>
         <div class="flex items-center justify-end grow gap-4">
-            <x-button type="submit"
-                      title="Categories"
-                      class="md:flex gap-2 items-center hidden">
-                Categories
-                <x-lucide-chevron-down class="w-5 h-5" />
-            </x-button>
+            <div>
+                <x-button type="submit"
+                          title="Categories"
+                          data-drawer-target="category-drawer"
+                          data-drawer-show="category-drawer"
+                          aria-controls="category-drawer"
+                          class="md:flex gap-2 items-center hidden">
+                    <x-lucide-layout-grid class="w-5 h-5" />
+                    Categories
+                </x-button>
+                <x-web.category-drawer />
+            </div>
 
             <form class="grow md:block hidden">
                 <label for="default-search"
@@ -39,26 +48,37 @@
                 </div>
             </form>
 
-            <div class="flex items-center gap-2">
-                <x-button variant="icon"
-                          title="Search" class="md:hidden">
-                    <x-lucide-search class="h-5 w-5" />
-                </x-button>
-                <x-button type="link" variant="icon"
-                          title="Wishlist">
-                    <x-lucide-heart class="w-5 h-5" />
-                </x-button>
-                <x-button variant="icon"
-                          title="Cart">
-                    <x-lucide-shopping-bag class="w-5 h-5" />
-                    <span
-                          class="absolute inline-flex items-center justify-center text-[9px] min-w-5 p-1 leading-none font-bold text-white bg-red-600 border-2 border-white rounded-full -top-1 -end-1">2</span>
-                </x-button>
-                <x-button variant="icon"
-                          title="Account">
-                    <x-lucide-user-round class="w-5 h-5" />
-                </x-button>
-            </div>
+            <ul class="flex items-center gap-2">
+                <li class="md:hidden">
+                    <x-button variant="icon"
+                              title="Search">
+                        <x-lucide-search class="h-5 w-5" />
+                    </x-button>
+                </li>
+                <li>
+                    <x-button type="link"
+                              variant="icon"
+                              title="Wishlist">
+                        <x-lucide-heart class="w-5 h-5" />
+                    </x-button>
+                </li>
+                <li>
+                    <x-button variant="icon"
+                              title="Cart">
+                        <x-lucide-shopping-bag class="w-5 h-5" />
+                        <x-badge>2</x-badge>
+                    </x-button>
+                </li>
+                <li>
+                    <x-button variant="icon"
+                              title="Account"
+                              id="accountDropdownButton"
+                              data-dropdown-toggle="accountDropdown">
+                        <x-lucide-user-round class="w-5 h-5" />
+                    </x-button>
+                    <x-web.account-dropdown />
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
