@@ -2,11 +2,11 @@
 
 @php
     $commonClasses =
-        'relative block text-sm focus:outline-none disabled:opacity-25 transition ease-in-out duration-150';
+        'relative block font-medium text-sm text-center focus:outline-none disabled:opacity-25 transition ease-in-out duration-150';
 
     $classes =
         $commonClasses .
-        ' px-4 py-2 font-medium bg-primary-700 border border-transparent rounded-md text-white hover:bg-primary-800 focus:bg-primary-800 active:bg-primary-900';
+        ' px-4 py-2 bg-primary-700 border border-transparent rounded-md text-white hover:bg-primary-800 focus:bg-primary-800 active:bg-primary-900';
 
     if (strtolower($variant) == 'secondary') {
         $classes =
