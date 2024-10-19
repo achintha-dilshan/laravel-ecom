@@ -57,6 +57,7 @@
                 </li>
                 <li>
                     <x-button type="link"
+                              href="/wishlist"
                               variant="icon"
                               title="Wishlist">
                         <x-lucide-heart class="w-5 h-5" />
@@ -64,10 +65,13 @@
                 </li>
                 <li>
                     <x-button variant="icon"
-                              title="Cart">
+                              title="Cart"
+                              id="cartDropdownButton"
+                              data-dropdown-toggle="cartDropdown">
                         <x-lucide-shopping-bag class="w-5 h-5" />
                         <x-badge>2</x-badge>
                     </x-button>
+                    <x-web.cart-dropdown />
                 </li>
                 <li>
                     <x-button variant="icon"
