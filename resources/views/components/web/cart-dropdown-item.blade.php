@@ -3,6 +3,7 @@
        class="size-12 aspect-square shrink-0">
         <img src="https://picsum.photos/200"
              class="w-full h-full object-cover rounded-md"
+             loading="lazy"
              alt="Product Image">
     </a>
     <div>

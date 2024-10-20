@@ -1,4 +1,4 @@
-<footer class="p-4 bg-white sm:p-6">
+<footer class="p-4 pt-8 bg-gray-50 sm:p-6 sm:pt-12">
     <div class="max-w-screen-sm mx-auto lg:max-w-screen-xl">
         <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-6">
             <div class="col-span-2 sm:col-span-3">
