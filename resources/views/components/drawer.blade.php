@@ -1,7 +1,7 @@
 @props(['id'])
 
 <aside id="{{ $id }}"
-       {{ $attributes->merge(['class' => 'fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80']) }}
+       {{ $attributes->merge(['class' => 'fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto -translate-x-full bg-white w-80 transform ease-in-out duration-300']) }}
        tabindex="-1">
     <div class="flex items-center justify-between gap-4">
         <a href="#"
