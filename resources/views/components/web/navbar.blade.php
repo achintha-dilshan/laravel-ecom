@@ -32,7 +32,7 @@
                 <x-web.category-drawer />
             </div>
 
-            <form class="hidden grow md:block">
+            <form class="relative hidden grow md:block">
                 <label for="default-search"
                        class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
                 <div class="relative">
@@ -46,6 +46,52 @@
                         <x-lucide-search class="w-5 h-5 text-gray-500" />
                     </div>
                 </div>
+                @if (false)
+                    <div class="absolute p-2 w-full bg-white rounded-md shadow top-[120%]">
+                        @if (false)
+                            <ul class="space-y-1 overflow-y-auto max-h-44">
+                                <li>
+                                    <a href="#"
+                                       class="flex gap-4 p-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
+                                        <div class="size-12 aspect-square shrink-0">
+                                            <img src="https://picsum.photos/200"
+                                                 class="object-cover w-full h-full rounded-md"
+                                                 loading="lazy"
+                                                 alt="Product Image">
+                                        </div>
+                                        <div>
+                                            <h5 class="text-gray-700 line-clamp-1">Lorem ipsum dolor sit amet
+                                                consectetur
+                                            </h5>
+                                            <span class="text-sm text-gray-500">Rs. 1990.99</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                       class="flex gap-4 p-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
+                                        <div class="size-12 aspect-square shrink-0">
+                                            <img src="https://picsum.photos/200"
+                                                 class="object-cover w-full h-full rounded-md"
+                                                 loading="lazy"
+                                                 alt="Product Image">
+                                        </div>
+                                        <div>
+                                            <h5 class="text-gray-700 line-clamp-1">Lorem ipsum dolor sit amet
+                                                consectetur
+                                            </h5>
+                                            <span class="text-sm text-gray-500">Rs. 1990.99</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        @else
+                            <div class="p-2 text-sm text-center text-gray-500">
+                                No products found.
+                            </div>
+                        @endif
+                    </div>
+                @endif
             </form>
 
             <ul class="flex items-center gap-2">

@@ -1,9 +1,9 @@
-<li class="flex gap-4 p-2 hover:bg-gray-100 rounded-lg transition ease-in-out duration-150">
+<li class="flex gap-4 p-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
     <a href="#"
        class="flex gap-4">
         <div class="size-12 aspect-square shrink-0">
             <img src="https://picsum.photos/200"
-                 class="w-full h-full object-cover rounded-md"
+                 class="object-cover w-full h-full rounded-md"
                  loading="lazy"
                  alt="Product Image">
         </div>
