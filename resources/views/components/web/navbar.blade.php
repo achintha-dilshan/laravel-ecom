@@ -9,7 +9,7 @@
                           class="md:hidden">
                     <x-lucide-menu class="w-5 h-5" />
                 </x-button>
-                <x-web.category-drawer class="md:hidden" />
+                <x-web.category-drawer />
             </div>
             <a href="#"
                class="flex items-center space-x-3 shrink-0">
@@ -29,7 +29,7 @@
                     <x-lucide-layout-grid class="w-5 h-5" />
                     Categories
                 </x-button>
-                <x-web.category-dropdown class="hidden md:block" />
+                <x-web.category-dropdown />
             </div>
 
             <form class="relative hidden grow md:block">
