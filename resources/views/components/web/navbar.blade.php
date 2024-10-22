@@ -1,14 +1,16 @@
 <nav class="top-0 z-20 w-full bg-white border-b border-gray-200 start-0 ">
     <div class="flex items-center justify-between max-w-screen-xl gap-4 p-4 mx-auto lg:space-x-12">
         <div class="flex items-center gap-4">
-            <x-button variant="icon"
-                      title="Menu"
-                      data-drawer-target="category-drawer"
-                      data-drawer-show="category-drawer"
-                      aria-controls="category-drawer"
-                      class="md:hidden">
-                <x-lucide-menu class="w-5 h-5" />
-            </x-button>
+            <div class="shrink-0">
+                <x-button variant="icon"
+                          title="Menu"
+                          data-drawer-target="category-drawer"
+                          data-drawer-show="category-drawer"
+                          class="md:hidden">
+                    <x-lucide-menu class="w-5 h-5" />
+                </x-button>
+                <x-web.category-drawer class="md:hidden" />
+            </div>
             <a href="#"
                class="flex items-center space-x-3 shrink-0">
                 <img src="https://flowbite.com/docs/images/logo.svg"
@@ -22,14 +24,12 @@
             <div>
                 <x-button type="submit"
                           title="Categories"
-                          data-drawer-target="category-drawer"
-                          data-drawer-show="category-drawer"
-                          aria-controls="category-drawer"
+                          data-dropdown-toggle="categoryDropdown"
                           class="items-center hidden gap-2 md:flex">
                     <x-lucide-layout-grid class="w-5 h-5" />
                     Categories
                 </x-button>
-                <x-web.category-drawer />
+                <x-web.category-dropdown class="hidden md:block" />
             </div>
 
             <form class="relative hidden grow md:block">
@@ -52,7 +52,7 @@
                             <ul class="space-y-1 overflow-y-auto max-h-44">
                                 <li>
                                     <a href="#"
-                                       class="flex gap-4 p-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
+                                       class="flex gap-4 p-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100">
                                         <div class="size-12 aspect-square shrink-0">
                                             <img src="https://picsum.photos/200"
                                                  class="object-cover w-full h-full rounded-md"
@@ -69,7 +69,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                       class="flex gap-4 p-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
+                                       class="flex gap-4 p-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100">
                                         <div class="size-12 aspect-square shrink-0">
                                             <img src="https://picsum.photos/200"
                                                  class="object-cover w-full h-full rounded-md"
@@ -112,7 +112,6 @@
                 <li>
                     <x-button variant="icon"
                               title="Cart"
-                              id="cartDropdownButton"
                               data-dropdown-toggle="cartDropdown">
                         <x-lucide-shopping-bag class="w-5 h-5" />
                         <x-badge>2</x-badge>
@@ -123,7 +122,6 @@
                     @if (true)
                         <x-button variant="icon"
                                   title="Account"
-                                  id="accountDropdownButton"
                                   data-dropdown-toggle="accountDropdown">
                             <x-lucide-user-round class="w-5 h-5" />
                         </x-button>
