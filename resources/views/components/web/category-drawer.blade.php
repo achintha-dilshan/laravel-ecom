@@ -18,7 +18,7 @@
                 </x-web.category-drawer-item>
 
                 <ul id="category-4-dropdown"
-                    class="hidden m-4 mr-0 divide-y divide-gray-200">
+                    class="hidden mt-2 mb-4 ml-4 mr-0 divide-y divide-gray-200">
                     <li>
                         <x-web.category-drawer-item>Sub Category 1</x-web.category-drawer-item>
                     </li>
