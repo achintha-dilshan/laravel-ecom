@@ -36,19 +36,22 @@
                 <label for="default-search"
                        class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
                 <div class="relative">
-                    <input type="text"
-                           id="default-search"
-                           class="block w-full py-2.5 px-12 text-sm text-gray-500 border border-gray-300 rounded-lg bg-transparent  focus:outline-none focus:border-gray-300 focus:ring-offset-2 focus:ring-2 focus:ring-primary-500 transition ease-in-out duration-150"
-                           placeholder="Search for products..."
-                           required />
-
                     <div class="absolute inset-y-0 flex items-center pointer-events-none start-0 ps-4">
                         <x-lucide-search class="w-5 h-5 text-gray-500" />
                     </div>
+                    <input type="text"
+                           id="default-search"
+                           class="block w-full py-2.5 px-12 text-sm text-gray-500 border border-gray-300 rounded-lg bg-transparent focus:outline-none focus:border-gray-300 focus:ring-offset-2 focus:ring-2 focus:ring-primary-500 transition ease-in-out duration-150"
+                           placeholder="Search for products..."
+                           required />
+                    <button type="button"
+                            class="absolute inset-y-0 flex items-center hidden end-0 pe-4">
+                        <x-lucide-x class="w-5 h-5 text-gray-500" />
+                    </button>
                 </div>
                 @if (false)
                     <div class="absolute p-2 w-full bg-white rounded-md shadow top-[120%]">
-                        @if (false)
+                        @if (true)
                             <ul class="space-y-1 overflow-y-auto max-h-44">
                                 <li>
                                     <a href="#"
@@ -97,9 +100,12 @@
             <ul class="flex items-center gap-2">
                 <li class="md:hidden">
                     <x-button variant="icon"
-                              title="Search">
+                              title="Search"
+                              data-modal-target="search-modal"
+                              data-modal-toggle="search-modal">
                         <x-lucide-search class="w-5 h-5" />
                     </x-button>
+                    <x-web.search-modal />
                 </li>
                 <li>
                     <x-button type="link"
