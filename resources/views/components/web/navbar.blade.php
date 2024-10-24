@@ -1,12 +1,11 @@
 <nav class="top-0 z-20 w-full bg-white border-b border-gray-200 start-0 ">
     <div class="flex items-center justify-between max-w-screen-xl gap-4 p-4 mx-auto lg:space-x-12">
         <div class="flex items-center gap-4">
-            <div class="shrink-0">
+            <div class="shrink-0 lg:hidden">
                 <x-button variant="icon"
                           title="Menu"
                           data-drawer-target="category-drawer"
-                          data-drawer-show="category-drawer"
-                          class="lg:hidden">
+                          data-drawer-show="category-drawer">
                     <x-lucide-menu class="w-5 h-5" />
                 </x-button>
                 <x-web.category-drawer />
