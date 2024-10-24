@@ -1,8 +1,8 @@
-<div class="bg-gray-50 w-full">
-    <div class="max-w-screen-xl mx-auto px-4 py-2">
-        <div class="flex md:justify-between items-center justify-center">
-            <div class="shrink-0 text-sm text-gray-500">Welcome to Flowbite!</div>
-            <ul class="items-center divide-x divide-solid text-sm text-gray-500 md:flex hidden">
+<div class="w-full bg-gray-50">
+    <div class="max-w-screen-xl px-4 py-2 mx-auto">
+        <div class="flex items-center justify-center md:justify-between">
+            <div class="text-sm text-gray-500 shrink-0">Welcome to Flowbite!</div>
+            <ul class="items-center hidden text-sm text-gray-500 divide-x divide-solid md:flex">
                 <li>
                     <a href="/faq"
                        class="px-4 hover:underline">FAQs</a>

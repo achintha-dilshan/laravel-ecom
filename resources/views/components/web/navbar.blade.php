@@ -6,7 +6,7 @@
                           title="Menu"
                           data-drawer-target="category-drawer"
                           data-drawer-show="category-drawer"
-                          class="md:hidden">
+                          class="lg:hidden">
                     <x-lucide-menu class="w-5 h-5" />
                 </x-button>
                 <x-web.category-drawer />
@@ -25,7 +25,7 @@
                 <x-button type="submit"
                           title="Categories"
                           data-dropdown-toggle="categoryDropdown"
-                          class="items-center hidden gap-2 md:flex">
+                          class="items-center hidden gap-2 lg:flex">
                     <x-lucide-layout-grid class="w-5 h-5" />
                     Categories
                 </x-button>
@@ -38,11 +38,11 @@
                 <div class="relative">
                     <input type="text"
                            id="default-search"
-                           class="block w-full py-2.5 ps-4 text-sm text-gray-500 border border-gray-300 rounded-lg bg-transparent  focus:outline-none focus:border-gray-300 focus:ring-offset-2 focus:ring-2 focus:ring-primary-500 transition ease-in-out duration-150"
+                           class="block w-full py-2.5 px-12 text-sm text-gray-500 border border-gray-300 rounded-lg bg-transparent  focus:outline-none focus:border-gray-300 focus:ring-offset-2 focus:ring-2 focus:ring-primary-500 transition ease-in-out duration-150"
                            placeholder="Search for products..."
                            required />
 
-                    <div class="absolute inset-y-0 flex items-center pointer-events-none end-0 pe-4">
+                    <div class="absolute inset-y-0 flex items-center pointer-events-none start-0 ps-4">
                         <x-lucide-search class="w-5 h-5 text-gray-500" />
                     </div>
                 </div>
