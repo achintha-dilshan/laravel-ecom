@@ -2,7 +2,7 @@
 
 @php
     $commonClasses =
-        'relative block font-medium text-sm text-center focus:outline-none disabled:opacity-25 transition ease-in-out duration-150';
+        'relative inline-block font-medium text-sm text-center focus:outline-none disabled:opacity-25 transition ease-in-out duration-150';
 
     $classes =
         $commonClasses .
