@@ -4,11 +4,11 @@
     $classes = 'absolute z-10 hidden -translate-y-1/2 group top-1/2 md:block';
 
     if (strtolower($direction) == 'prev') {
-        $classes .= ' swiper-nav-prev left-4';
+        $classes .= ' swiper-navigation-prev left-4';
     }
 
     if (strtolower($direction) == 'next') {
-        $classes .= ' swiper-nav-next right-4';
+        $classes .= ' swiper-navigation-next right-4';
     }
 @endphp
 
