@@ -13,14 +13,19 @@
 </head>
 
 <body>
-    <div class="min-h-screen flex flex-col">
+    <div class="flex flex-col min-h-screen">
         <!-- Header -->
         <x-web.header />
 
         <!-- Content -->
         <main class="grow">
-            {{ $slot }}
+            <div class="max-w-screen-xl px-4 mx-auto">
+                {{ $slot }}
+            </div>
         </main>
+
+        <!-- Newsletter Section -->
+        <x-web.newsletter-section />
 
         <!-- Footer -->
         <x-web.footer />
