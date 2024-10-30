@@ -7,9 +7,9 @@
                  loading="lazy"
                  alt="Product Image">
         </div>
-        <div>
-            <h5 class="text-gray-700 line-clamp-1">Lorem ipsum dolor sit amet consectetur</h5>
-            <span class="text-sm text-gray-500">2 x Rs. 1990.99</span>
+        <div class="leading-tight">
+            <h5 class="text-sm font-semibold text-gray-700 line-clamp-1">Lorem ipsum dolor sit amet consectetur</h5>
+            <span class="text-xs text-gray-500">2 x Rs. 1990.99</span>
         </div>
     </a>
     <div class="shrink-0">
