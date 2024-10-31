@@ -1,4 +1,4 @@
-<section class="bg-gray-50">
+<section class="">
     <div class="max-w-screen-sm px-4 py-8 mx-auto lg:py-16 lg:px-6">
         <h2 class="mb-4 text-3xl font-bold text-center text-gray-700 sm:text-4xl">Sign up for
             our newsletter</h2>
@@ -21,7 +21,7 @@
                            autocomplete="off"
                            required="">
                 </div>
-                <x-button type="submit">Subscribe</x-button>
+                <x-web::button type="submit">Subscribe</x-web::button>
             </div>
             <p class="mx-auto text-sm text-center text-gray-500 sm:text-left">
                 We care about the protection of your data. <a href="#"

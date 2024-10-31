@@ -5,9 +5,9 @@
     </x-slot:header>
     @if (true)
         <ul class="p-2 space-y-1 overflow-y-auto max-h-44">
-            <x-web.cart-dropdown-item />
-            <x-web.cart-dropdown-item />
-            <x-web.cart-dropdown-item />
+            <x-web::cart-dropdown-item />
+            <x-web::cart-dropdown-item />
+            <x-web::cart-dropdown-item />
         </ul>
         <div class="p-4">
             <div class="flex items-center justify-between gap-4 mb-5">

@@ -12,10 +12,10 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body>
+<body class="bg-gray-50">
     <div class="flex flex-col min-h-screen">
         <!-- Header -->
-        <x-web.header />
+        @include('web.partials.header')
 
         <!-- Content -->
         <main class="grow">
@@ -25,10 +25,10 @@
         </main>
 
         <!-- Newsletter Section -->
-        <x-web.newsletter-section />
+        @include('web.partials.newsletter-section')
 
         <!-- Footer -->
-        <x-web.footer />
+        @include('web.partials.footer')
     </div>
 </body>
 

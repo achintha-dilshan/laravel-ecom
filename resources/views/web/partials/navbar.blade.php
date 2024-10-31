@@ -8,7 +8,8 @@
                           data-drawer-show="category-drawer">
                     <x-lucide-menu class="w-5 h-5" />
                 </x-button>
-                <x-web.category-drawer />
+                @include('web.pages.home.partials.category-drawer')
+                {{-- <x-web::category-drawer /> --}}
             </div>
             <a href="#"
                class="flex items-center space-x-3 shrink-0">
@@ -28,7 +29,8 @@
                     <x-lucide-layout-grid class="w-5 h-5" />
                     Categories
                 </x-button>
-                <x-web.category-dropdown />
+
+                @include('web.pages.home.partials.category-dropdown')
             </div>
 
             <form class="relative hidden grow md:block">
@@ -104,7 +106,8 @@
                               data-modal-toggle="search-modal">
                         <x-lucide-search class="w-5 h-5" />
                     </x-button>
-                    <x-web.search-modal />
+                    @include('web.pages.home.partials.search-modal')
+                    {{-- <x-web::search-modal /> --}}
                 </li>
                 <li>
                     <x-button type="link"
@@ -121,7 +124,8 @@
                         <x-lucide-shopping-bag class="w-5 h-5" />
                         <x-badge>2</x-badge>
                     </x-button>
-                    <x-web.cart-dropdown />
+                    @include('web.pages.home.partials.cart-dropdown')
+                    {{-- <x-web::cart-dropdown /> --}}
                 </li>
                 <li>
                     @if (true)
@@ -130,7 +134,8 @@
                                   data-dropdown-toggle="accountDropdown">
                             <x-lucide-user-round class="w-5 h-5" />
                         </x-button>
-                        <x-web.account-dropdown />
+                        @include('web.pages.home.partials.account-dropdown')
+                        {{-- <x-web::account-dropdown /> --}}
                     @else
                         <x-button href="/login"
                                   type="link"

@@ -1,4 +1,4 @@
-<div class="relative w-full bg-white rounded-lg shadow-xl p-2.5 shadow-gray-100">
+<div class="relative w-full bg-white rounded-lg shadow-xl p-2.5 shadow-gray-100 max-w-60">
     <div class="relative group">
         <a href="javascript:void(0)">
             <div class="w-full aspect-[4/5] overflow-clip rounded-md">
@@ -9,6 +9,7 @@
                             srcset="https://picsum.photos/200">
                     <img src="https://picsum.photos/200"
                          alt="Hero Banner"
+                         loading="lazy"
                          class="object-cover w-full h-full transition duration-300 ease-in group-hover:scale-110">
                 </picture>
             </div>
@@ -40,8 +41,8 @@
             <h4 class="text-sm font-semibold text-gray-600 line-clamp-1">Lorem ipsum, dolor sit amet consectetur
             </h4>
         </a>
-        <x-web.star-rating rating="36"
-                           count="24" />
+        <x-web::star-rating rating="36"
+                            count="24" />
         <div class="relative mt-3">
             <span class="absolute block text-xs text-gray-400 line-through -top-3">LKR 2990.00</span>
             <strong class="text-lg text-gray-600">LKR 1990.99</strong>
