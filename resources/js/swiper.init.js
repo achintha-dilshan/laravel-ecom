@@ -1,32 +1,13 @@
 // swiper
 // core version + navigation, pagination modules:
 import Swiper from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 // import Swiper and modules styles
 import "swiper/css";
 
 class SwiperSlider {
     constructor(selector) {
         this.sliders = document.querySelectorAll(selector);
-        this.baseConfig = {
-            // configure Swiper to use modules
-            modules: [Navigation, Pagination],
-
-            // Optional parameters
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: ".swiper-navigation-next",
-                prevEl: ".swiper-navigation-prev",
-            },
-        };
         this.initSlider();
     }
 
@@ -46,16 +27,30 @@ class SwiperSlider {
     }
 
     getConfig(slider) {
-        const configString = slider.dataset.config;
         let config = {};
+        const configString = slider.dataset.config;
+        const baseConfig = {
+            modules: [Navigation, Pagination, Autoplay],
+            loop: true,
+            pagination: {
+                el: slider.querySelector(".swiper-pagination"),
+                clickable: true,
+            },
+            navigation: {
+                nextEl: slider.querySelector(".swiper-navigation-next"),
+                prevEl: slider.querySelector(".swiper-navigation-prev"),
+            },
+        };
 
-        try {
-            config = JSON.parse(configString);
-        } catch (e) {
-            console.error("Invalid JSON configuration for Swiper:", e);
+        if (configString) {
+            try {
+                config = JSON.parse(configString.replace(/'/g, '"'));
+            } catch (e) {
+                console.error("Invalid JSON configuration for Swiper:", e);
+            }
         }
 
-        return Object.assign({}, this.baseConfig, config);
+        return Object.assign({}, baseConfig, config);
     }
 }
 
