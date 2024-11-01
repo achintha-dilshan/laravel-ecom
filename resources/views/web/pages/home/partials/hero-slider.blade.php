@@ -1,5 +1,6 @@
-<div class="my-4 overflow-clip rounded-2xl">
-    <x-swiper.container>
+<section class="my-4 overflow-clip rounded-2xl">
+    <x-swiper.container :showNavigation="true"
+                        :showPagination="true">
         <x-swiper.slide>
             <picture>
                 <source media="(max-width: 576px)"
@@ -31,4 +32,4 @@
             </picture>
         </x-swiper.slide>
     </x-swiper.container>
-</div>
+</section>
