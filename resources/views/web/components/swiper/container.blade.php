@@ -1,20 +1,26 @@
+@props(['showNavigation' => false, 'showPagination' => false])
+
 <div {{ $attributes->merge(['class' => 'swiper']) }}>
     <div class="swiper-wrapper">
         {{ $slot }}
     </div>
 
     <!-- Pagination -->
-    @isset($pagination)
-        {{ $pagination }}
-    @else
-        <x-swiper.pagination />
-    @endisset
+    @if ($showPagination)
+        @isset($pagination)
+            {{ $pagination }}
+        @else
+            <x-swiper.pagination />
+        @endisset
+    @endif
 
     <!-- Navigation -->
-    @isset($navigation)
-        {{ $navigation }}
-    @else
-        <x-swiper.nav direction="prev" />
-        <x-swiper.nav direction="next" />
-    @endisset
+    @if ($showNavigation)
+        @isset($navigation)
+            {{ $navigation }}
+        @else
+            <x-swiper.nav direction="prev" />
+            <x-swiper.nav direction="next" />
+        @endisset
+    @endif
 </div>
