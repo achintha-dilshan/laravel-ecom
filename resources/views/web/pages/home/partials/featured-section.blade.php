@@ -1,8 +1,8 @@
 <section class="my-10">
-    <x-swiper.container
-                        data-config="{'slidesPerView': 1, 'spaceBetween': 16, 'autoplay': true, 'breakpoints': {'640': {'slidesPerView': 2},'1024': {'slidesPerView': 3, 'autoplay': false}}}">
+    <x-web::swiper.container :showPagination="true"
+                             data-config="{'slidesPerView': 1, 'spaceBetween': 16, 'autoplay': true, 'breakpoints': {'640': {'slidesPerView': 2},'1024': {'slidesPerView': 3, 'autoplay': false, 'pagination': false}}}">
         <x-swiper.slide>
-            <div class="p-4 my-2 bg-white rounded-lg">
+            <div class="p-4 my-2 mb-6 bg-white rounded-lg lg:mb-auto">
                 <div class="flex gap-4">
                     <div class="w-full aspect-[4/3] overflow-clip rounded-md max-h-36 max-w-48">
                         <picture>
@@ -70,5 +70,10 @@
                 </div>
             </div>
         </x-swiper.slide>
-    </x-swiper.container>
+        <x-slot:pagination>
+            <div
+                 class="absolute z-10 flex lg:hidden items-center justify-center w-full gap-2 swiper-pagination bottom-1 text-[0px]">
+            </div>
+        </x-slot:pagination>
+    </x-web::swiper.container>
 </section>
