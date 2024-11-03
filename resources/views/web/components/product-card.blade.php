@@ -1,4 +1,4 @@
-<div class="relative w-full bg-white rounded-lg shadow-xl p-2.5 shadow-gray-100 max-w-60">
+<div class="relative w-full bg-white rounded-lg shadow-xl p-2.5 shadow-gray-100">
     <div class="relative group">
         <a href="javascript:void(0)">
             <div class="w-full aspect-[4/5] overflow-clip rounded-md">
@@ -28,8 +28,10 @@
         <div class="absolute -bottom-4 right-2">
             <button type="button"
                     title="Add to Cart"
-                    class="p-2 text-center text-white border rounded-full shadow-xl border-primary-700 bg-primary-700 focus:outline-none">
-                <x-lucide-shopping-bag class="w-5 h-5" />
+                    class="p-2 text-2xl text-center text-white border rounded-full shadow-xl border-primary-700 bg-primary-700 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="white" d="M6.01 16.136L4.141 4H3a1 1 0 0 1 0-2h1.985a1 1 0 0 1 .66.235a1 1 0 0 1 .346.627L6.319 5H14v2H6.627l1.23 8h9.399l1.5-5h2.088l-1.886 6.287A1 1 0 0 1 18 17H7.016a1 1 0 0 1-.675-.248a1 1 0 0 1-.332-.616zM10 20a2 2 0 1 1-4 0a2 2 0 0 1 4 0m9 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0m0-18a1 1 0 0 1 1 1v1h1a1 1 0 1 1 0 2h-1v1a1 1 0 1 1-2 0V6h-1a1 1 0 1 1 0-2h1V3a1 1 0 0 1 1-1" />
+                    </svg>
             </button>
         </div>
     </div>
