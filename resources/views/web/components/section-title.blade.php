@@ -1,15 +1,8 @@
 @props(['title', 'targetTitle', 'href'])
 
-<div class="mb-4">
+<div class="py-2.5 mb-5 border-b border-gray-200">
     <div class="flex flex-col items-start justify-between gap-1 sm:flex-row">
         <h2 class="text-2xl font-bold text-gray-600">{{ $title }}</h2>
-        <a href="{{ $href ?? 'javascript:void(0)' }}">
-            <div class="flex items-center gap-2">
-                <span class="text-sm font-medium text-gray-500">{{ $targetTitle }}</span>
-                <span class="p-1 text-gray-500 bg-white border rounded-full">
-                    <x-lucide-chevron-right class="w-5 h-5" />
-                </span>
-            </div>
-        </a>
+        <x-web::section-button href="{{ $href ?? 'javascript:void(0)' }}">{{ $targetTitle }}</x-web::section-button>
     </div>
 </div>
