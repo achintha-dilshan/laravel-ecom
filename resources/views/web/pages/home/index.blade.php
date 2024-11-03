@@ -1,4 +1,5 @@
 <x-web::layout>
+    
     {{-- hero section --}}
     @include('web.pages.home.partials.hero-section')
 
@@ -8,11 +9,7 @@
     {{-- featured section --}}
     @include('web.pages.home.partials.featured-section')
 
-    <section class="my-10">
-        <x-web::section-title title="New Arrivals"
-                              targetTitle="View More" />
-        <div class="flex items-start gap-4">
-            <x-web::product-card />
-        </div>
-    </section>
+    {{-- new arrivals section --}}
+    @include('web.pages.home.partials.new-arrivals-section')
+
 </x-web::layout>
