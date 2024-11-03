@@ -4,7 +4,7 @@
 
     <x-web::swiper.container wrapperClass="pt-2 pb-6"
                              :showPagination="true"
-                             data-config="{'slidesPerView': 2, 'spaceBetween': 16, 'autoplay': true, 'breakpoints': {'640': {'slidesPerView': 3},'768': {'slidesPerView': 4},'1024': {'slidesPerView': 5, 'autoplay': false}}}">
+                             data-config="{'slidesPerView': 2, 'spaceBetween': 16, 'autoplay': { 'delay': 3000 }, 'breakpoints': {'640': {'slidesPerView': 3},'768': {'slidesPerView': 4},'1024': {'slidesPerView': 5}}}">
 
         @for ($i = 0; $i < 8; $i++)
             <x-swiper.slide>
