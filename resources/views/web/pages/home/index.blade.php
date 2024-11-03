@@ -1,15 +1,12 @@
 <x-web::layout>
     {{-- hero section --}}
-    @include('web.pages.home.partials.hero-slider')
+    @include('web.pages.home.partials.hero-section')
 
     {{-- category section --}}
-    <section class="my-10">
-        <x-web::section-title title="Browse Categories"
-                              targetTitle="Shop Now" />
+    @include('web.pages.home.partials.category-section')
 
-        {{-- category slider --}}
-        @include('web.pages.home.partials.category-slider')
-    </section>
+    {{-- featured section --}}
+    @include('web.pages.home.partials.featured-section')
 
     <section class="my-10">
         <x-web::section-title title="New Arrivals"
