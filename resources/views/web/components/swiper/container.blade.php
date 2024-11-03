@@ -1,7 +1,7 @@
 @props(['showNavigation' => false, 'showPagination' => false])
 
 <div {{ $attributes->merge(['class' => 'swiper']) }}>
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper {{ $wrapperClass ?? '' }}">
         {{ $slot }}
     </div>
 
