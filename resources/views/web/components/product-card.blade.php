@@ -29,18 +29,25 @@
             <button type="button"
                     title="Add to Cart"
                     class="p-2 text-2xl text-center text-white border rounded-full shadow-xl border-primary-700 bg-primary-700 focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <path fill="white" d="M6.01 16.136L4.141 4H3a1 1 0 0 1 0-2h1.985a1 1 0 0 1 .66.235a1 1 0 0 1 .346.627L6.319 5H14v2H6.627l1.23 8h9.399l1.5-5h2.088l-1.886 6.287A1 1 0 0 1 18 17H7.016a1 1 0 0 1-.675-.248a1 1 0 0 1-.332-.616zM10 20a2 2 0 1 1-4 0a2 2 0 0 1 4 0m9 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0m0-18a1 1 0 0 1 1 1v1h1a1 1 0 1 1 0 2h-1v1a1 1 0 1 1-2 0V6h-1a1 1 0 1 1 0-2h1V3a1 1 0 0 1 1-1" />
-                    </svg>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="1em"
+                     height="1em"
+                     viewBox="0 0 24 24">
+                    <path fill="white"
+                          d="M6.01 16.136L4.141 4H3a1 1 0 0 1 0-2h1.985a1 1 0 0 1 .66.235a1 1 0 0 1 .346.627L6.319 5H14v2H6.627l1.23 8h9.399l1.5-5h2.088l-1.886 6.287A1 1 0 0 1 18 17H7.016a1 1 0 0 1-.675-.248a1 1 0 0 1-.332-.616zM10 20a2 2 0 1 1-4 0a2 2 0 0 1 4 0m9 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0m0-18a1 1 0 0 1 1 1v1h1a1 1 0 1 1 0 2h-1v1a1 1 0 1 1-2 0V6h-1a1 1 0 1 1 0-2h1V3a1 1 0 0 1 1-1" />
+                </svg>
             </button>
         </div>
     </div>
     <div class="p-2">
-        <a href="javascript:void(0)">
-            <span class="text-xs text-gray-400">Electronics</span>
+        <a href="javascript:void(0)"
+           class="group">
+            <span class="text-xs text-gray-400 transition duration-150 ease-in-out group-hover:text-primary-400">Electronics</span>
         </a>
-        <a href="javascript:void(0)">
-            <h4 class="text-sm font-semibold text-gray-600 line-clamp-1">Lorem ipsum, dolor sit amet consectetur
+        <a href="javascript:void(0)"
+           class="group">
+            <h4 class="text-sm font-semibold text-gray-600 transition duration-150 ease-in-out line-clamp-1 group-hover:text-primary-600">Lorem ipsum, dolor
+                sit amet consectetur
             </h4>
         </a>
         <x-web::star-rating rating="36"

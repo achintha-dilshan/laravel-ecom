@@ -10,14 +10,14 @@
                     <span class="self-center text-2xl font-semibold whitespace-nowrap ">Flowbite</span>
                 </a>
 
-                <p class="max-w-md mx-0 my-6 text-left text-gray-500 sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+                <p class="max-w-md mx-0 my-6 text-sm text-left text-gray-500 sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iusto sit omnis dolore quis assumenda!
                 </p>
 
                 <!-- Social Icons-->
                 <div class="flex items-center justify-start gap-6 mb-6 sm:justify-center lg:justify-start">
                     <a href="#"
-                       class="text-gray-500 hover:text-gray-900 ">
+                       class="text-gray-500 hover:text-gray-700 ">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -28,7 +28,7 @@
                         </svg>
                     </a>
                     <a href="#"
-                       class="text-gray-500 hover:text-gray-900 ">
+                       class="text-gray-500 hover:text-gray-700 ">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -39,7 +39,7 @@
                         </svg>
                     </a>
                     <a href="#"
-                       class="text-gray-500 hover:text-gray-900 ">
+                       class="text-gray-500 hover:text-gray-700 ">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -49,7 +49,7 @@
                         </svg>
                     </a>
                     <a href="#"
-                       class="text-gray-500 hover:text-gray-900 ">
+                       class="text-gray-500 hover:text-gray-700 ">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -60,7 +60,7 @@
                         </svg>
                     </a>
                     <a href="#"
-                       class="text-gray-500 hover:text-gray-900 ">
+                       class="text-gray-500 hover:text-gray-700 ">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -75,64 +75,64 @@
 
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Shop</h2>
-                <ul class="text-gray-500">
+                <ul class="text-sm text-gray-500">
                     <li class="mb-3">
                         <a href="#"
-                           class="hover:underline">Electronics</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Electronics</a>
                     </li>
                     <li class="mb-3">
                         <a href="#"
-                           class="hover:underline">Health &amp; Beauty</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Health &amp; Beauty</a>
                     </li>
                     <li class="mb-3">
                         <a href="#"
-                           class="hover:underline">Clothing</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Clothing</a>
                     </li>
                     <li class="mb-3">
                         <a href="#"
-                           class="hover:underline">Kitchen &amp; Dining</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Kitchen &amp; Dining</a>
                     </li>
                 </ul>
             </div>
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Account</h2>
-                <ul class="text-gray-500">
+                <ul class="text-sm text-gray-500">
                     <li class="mb-3">
                         <a href="#"
-                           class="hover:underline">Profile</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Profile</a>
                     </li>
                     <li class="mb-3">
                         <a href="/cart"
-                           class="hover:underline">View Cart</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">View Cart</a>
                     </li>
                     <li class="mb-3">
                         <a href="/wishlist"
-                           class="hover:underline">My Wishlist</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">My Wishlist</a>
                     </li>
                     <li class="mb-3">
                         <a href="/orders"
-                           class="hover:underline">My Orders</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">My Orders</a>
                     </li>
                 </ul>
             </div>
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Company</h2>
-                <ul class="text-gray-500">
+                <ul class="text-sm text-gray-500">
                     <li class="mb-3">
                         <a href="/about"
-                           class="hover:underline">About Us</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">About Us</a>
                     </li>
                     <li class="mb-3">
                         <a href="/contact"
-                           class="hover:underline">Contact Us</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Contact Us</a>
                     </li>
                     <li class="mb-3">
                         <a href="/privacy-and-policy"
-                           class="hover:underline">Privacy &amp; Policy</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Privacy &amp; Policy</a>
                     </li>
                     <li class="mb-3">
                         <a href="/faq"
-                           class="hover:underline">FAQs</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">FAQs</a>
                     </li>
                 </ul>
             </div>
