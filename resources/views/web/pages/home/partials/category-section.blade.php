@@ -1,5 +1,5 @@
 <section class="my-10">
-    <x-web::section-title title="Browse Categories"
+    <x-web::section-title title="Shop by Categories"
                           targetTitle="Shop Now" />
 
     {{-- category slider --}}

@@ -1,8 +1,8 @@
-<section class="my-10">
+<section class="my-20">
     <x-web::section-title title="New Arrivals"
                           targetTitle="View More" />
 
-    <x-web::swiper.container wrapperClass="pt-2 pb-6"
+    <x-web::swiper.container wrapperClass="pt-2 pb-8"
                              :showPagination="true"
                              data-config="{'slidesPerView': 2, 'spaceBetween': 16, 'autoplay': { 'delay': 3000 }, 'breakpoints': {'640': {'slidesPerView': 3},'768': {'slidesPerView': 4},'1024': {'slidesPerView': 5}}}">
 

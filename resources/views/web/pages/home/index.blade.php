@@ -15,4 +15,7 @@
     {{-- deals section --}}
     @include('web.pages.home.partials.deals-section')
 
+    {{-- best selling products section --}}
+    @include('web.pages.home.partials.best-selling-products-section')
+
 </x-web::layout>

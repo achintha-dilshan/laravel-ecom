@@ -1,4 +1,4 @@
-<section class="my-10">
+<section class="my-20">
     <div class="grid grid-cols-1 px-4 py-6 border-2 border-gray-500 md:grid-cols-2 lg:grid-cols-3 rounded-xl">
         <div class="self-center col-span-1">
             <div class="flex flex-col items-center gap-6 p-4">
@@ -40,7 +40,7 @@
 
         {{-- deals slider --}}
         <div class="col-span-1 lg:col-span-2">
-            <x-web::swiper.container wrapperClass="pt-2 pb-6"
+            <x-web::swiper.container wrapperClass="pt-2 pb-8"
                                      :showPagination="true"
                                      data-config="{'slidesPerView': 2, 'spaceBetween': 16, 'autoplay': { 'delay': 3000 }, 'breakpoints': {'640': {'slidesPerView': 3},'768': {'slidesPerView': 2},'1024': {'slidesPerView': 3}}}">
                 @for ($i = 0; $i < 8; $i++)
