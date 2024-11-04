@@ -1,4 +1,4 @@
-<section class="my-20">
+<section class="my-10 sm:my-20">
     <x-web::section-title title="Best Selling Products"
                           targetTitle="View More" />
 

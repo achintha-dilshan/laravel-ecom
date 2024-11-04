@@ -8,7 +8,7 @@
                           data-drawer-show="category-drawer">
                     <x-lucide-menu class="w-5 h-5" />
                 </x-button>
-                @include('web.pages.home.partials.category-drawer')
+                @include('web.partials.category-drawer')
                 {{-- <x-web::category-drawer /> --}}
             </div>
             <a href="#"
@@ -30,7 +30,7 @@
                     Categories
                 </x-button>
 
-                @include('web.pages.home.partials.category-dropdown')
+                @include('web.partials.category-dropdown')
             </div>
 
             <form class="relative hidden grow md:block">
@@ -106,7 +106,7 @@
                               data-modal-toggle="search-modal">
                         <x-lucide-search class="w-5 h-5" />
                     </x-button>
-                    @include('web.pages.home.partials.search-modal')
+                    @include('web.partials.search-modal')
                     {{-- <x-web::search-modal /> --}}
                 </li>
                 <li>
@@ -124,7 +124,7 @@
                         <x-lucide-shopping-bag class="w-5 h-5" />
                         <x-badge>2</x-badge>
                     </x-button>
-                    @include('web.pages.home.partials.cart-dropdown')
+                    @include('web.partials.cart-dropdown')
                     {{-- <x-web::cart-dropdown /> --}}
                 </li>
                 <li>
@@ -134,7 +134,7 @@
                                   data-dropdown-toggle="accountDropdown">
                             <x-lucide-user-round class="w-5 h-5" />
                         </x-button>
-                        @include('web.pages.home.partials.account-dropdown')
+                        @include('web.partials.account-dropdown')
                         {{-- <x-web::account-dropdown /> --}}
                     @else
                         <x-button href="/login"

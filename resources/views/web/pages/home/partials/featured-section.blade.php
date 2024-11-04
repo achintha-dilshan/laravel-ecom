@@ -1,4 +1,4 @@
-<section class="my-20">
+<section class="my-10 sm:my-20">
     <x-web::swiper.container wrapperClass="py-2 lg:pb-2 pb-8"
                              :showPagination="true"
                              data-config="{'slidesPerView': 1, 'spaceBetween': 16, 'autoplay': true, 'breakpoints': {'640': {'slidesPerView': 2},'1024': {'slidesPerView': 3, 'autoplay': false, 'pagination': false}}}">
