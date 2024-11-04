@@ -1,5 +1,5 @@
 <x-web::layout>
-    
+
     {{-- hero section --}}
     @include('web.pages.home.partials.hero-section')
 
@@ -11,5 +11,8 @@
 
     {{-- new arrivals section --}}
     @include('web.pages.home.partials.new-arrivals-section')
+
+    {{-- deals section --}}
+    @include('web.pages.home.partials.deals-section')
 
 </x-web::layout>
