@@ -1,5 +1,5 @@
 <section class="my-10 sm:my-20">
-    <div class="grid grid-cols-1 px-4 py-6 border-2 border-gray-500 md:grid-cols-2 lg:grid-cols-3 rounded-xl">
+    <div class="grid grid-cols-1 px-4 py-6 border-2 border-primary-700 md:grid-cols-2 lg:grid-cols-3 rounded-xl">
         <div class="self-center col-span-1">
             <div class="flex flex-col items-center gap-6 p-4">
                 <h2 class="text-2xl font-bold text-gray-600 sm:text-3xl lg:text-4xl">Deals of the Day</h2>
