@@ -5,28 +5,28 @@
                 <h2 class="text-2xl font-bold text-gray-600 sm:text-3xl lg:text-4xl">Deals of the Day</h2>
                 <ul class="top-0 flex items-center gap-2 countdown"
                     data-countdown="2024-11-27">
-                    <li class="p-3 bg-white rounded-md shadow-2xl shadow-gray-200 min-w-16">
+                    <li class="p-3 bg-white rounded-md shadow-lg shadow-gray-100 min-w-16">
                         <div class="flex flex-col items-center">
                             <span class="text-lg font-semibold text-gray-600"
                                   data-days>00</span>
                             <span class="text-sm text-gray-500">Days</span>
                         </div>
                     </li>
-                    <li class="p-3 bg-white rounded-md shadow-2xl shadow-gray-200 min-w-16">
+                    <li class="p-3 bg-white rounded-md shadow-lg shadow-gray-100 min-w-16">
                         <div class="flex flex-col items-center">
                             <span class="text-lg font-semibold text-gray-600"
                                   data-hours>00</span>
                             <span class="text-sm text-gray-500">Hours</span>
                         </div>
                     </li>
-                    <li class="p-3 bg-white rounded-md shadow-2xl shadow-gray-200 min-w-16">
+                    <li class="p-3 bg-white rounded-md shadow-lg shadow-gray-100 min-w-16">
                         <div class="flex flex-col items-center">
                             <span class="text-lg font-semibold text-gray-600"
                                   data-minutes>00</span>
                             <span class="text-sm text-gray-500">Mins</span>
                         </div>
                     </li>
-                    <li class="p-3 bg-white rounded-md shadow-2xl shadow-gray-200 min-w-16">
+                    <li class="p-3 bg-white rounded-md shadow-lg shadow-gray-100 min-w-16">
                         <div class="flex flex-col items-center">
                             <span class="text-lg font-semibold text-gray-600"
                                   data-seconds>00</span>

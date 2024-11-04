@@ -14,20 +14,23 @@
 
 <body class="bg-gray-50">
     <div class="flex flex-col min-h-screen">
-        <!-- Header -->
+        {{-- header --}}
         @include('web.partials.header')
 
-        <!-- Content -->
+        {{-- content --}}
         <main class="grow">
             <div class="max-w-screen-xl px-4 mx-auto">
                 {{ $slot }}
+
+                {{-- feature section --}}
+                @include('web.partials.feature-section')
             </div>
         </main>
 
-        <!-- Newsletter Section -->
+        {{-- newsletter section --}}
         @include('web.partials.newsletter-section')
 
-        <!-- Footer -->
+        {{-- footer --}}
         @include('web.partials.footer')
     </div>
 </body>

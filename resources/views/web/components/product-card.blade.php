@@ -1,4 +1,4 @@
-<div class="relative w-full bg-white rounded-lg shadow-xl p-2.5 shadow-gray-100">
+<div class="relative w-full bg-white rounded-lg shadow-lg p-2.5 shadow-gray-100">
     <div class="relative group">
         <a href="javascript:void(0)">
             <div class="w-full aspect-[4/5] overflow-clip rounded-md">
