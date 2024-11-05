@@ -7,4 +7,7 @@ import "flowbite";
 import "./swiper.init";
 
 // countdown
-import "./countdown"
+import "./countdown";
+
+// main.js
+import "./main";
