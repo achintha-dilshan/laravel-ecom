@@ -1,4 +1,4 @@
-<nav class="top-0 z-20 w-full bg-white border-b border-gray-200 start-0 ">
+<nav class="sticky top-0 z-20 w-full bg-white border-b border-gray-200 start-0">
     <div class="flex items-center justify-between max-w-screen-xl gap-4 p-4 mx-auto lg:space-x-12">
         <div class="flex items-center gap-4">
             <div class="shrink-0 lg:hidden">
@@ -8,8 +8,6 @@
                           data-drawer-show="category-drawer">
                     <x-lucide-menu class="w-5 h-5" />
                 </x-button>
-                @include('web.partials.category-drawer')
-                {{-- <x-web::category-drawer /> --}}
             </div>
             <a href="#"
                class="flex items-center space-x-3 shrink-0">
@@ -106,8 +104,6 @@
                               data-modal-toggle="search-modal">
                         <x-lucide-search class="w-5 h-5" />
                     </x-button>
-                    @include('web.partials.search-modal')
-                    {{-- <x-web::search-modal /> --}}
                 </li>
                 <li>
                     <x-button type="link"
@@ -125,7 +121,6 @@
                         <x-badge>2</x-badge>
                     </x-button>
                     @include('web.partials.cart-dropdown')
-                    {{-- <x-web::cart-dropdown /> --}}
                 </li>
                 <li>
                     @if (true)
@@ -135,7 +130,6 @@
                             <x-lucide-user-round class="w-5 h-5" />
                         </x-button>
                         @include('web.partials.account-dropdown')
-                        {{-- <x-web::account-dropdown /> --}}
                     @else
                         <x-button href="/login"
                                   type="link"
@@ -149,3 +143,9 @@
         </div>
     </div>
 </nav>
+
+{{-- mobile category drawer --}}
+@include('web.partials.category-drawer')
+
+{{-- mobile search modal --}}
+@include('web.partials.search-modal')

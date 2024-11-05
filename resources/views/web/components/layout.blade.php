@@ -16,6 +16,8 @@
     <div class="flex flex-col min-h-screen">
         {{-- header --}}
         @include('web.partials.header')
+        {{-- navbar --}}
+        @include('web.partials.navbar')
 
         {{-- content --}}
         <main class="grow">
