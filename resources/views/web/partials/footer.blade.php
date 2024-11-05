@@ -140,9 +140,9 @@
 
         <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
 
-        <div class="mb-2 text-sm text-center text-gray-500 lg:mb-4">© {{ date('Y') }} <a target="_blank"
+        <div class="mb-2 text-sm text-center text-gray-500 lg:mb-4">&copy; {{ date('Y') }} <a target="_blank"
                href="https://www.linkedin.com/in/achintha-dilshan/"
-               class="hover:underline">Achintha Dilshan</a>.
+               class="duration-150 ease-in-out hover:underline hover:text-primary-500">Achintha Dilshan</a>.
             All Rights Reserved.
         </div>
     </div>
