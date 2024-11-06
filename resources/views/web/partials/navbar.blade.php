@@ -9,7 +9,7 @@
                     <x-lucide-menu class="w-5 h-5" />
                 </x-button>
             </div>
-            <a href="#"
+            <a href="/"
                class="flex items-center space-x-3 shrink-0">
                 <img src="https://flowbite.com/docs/images/logo.svg"
                      class="h-8"
@@ -31,7 +31,7 @@
                 @include('web.partials.category-dropdown')
             </div>
 
-            <form class="relative hidden grow md:block">
+            <form class="relative hidden grow lg:block">
                 <label for="default-search"
                        class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
                 <div class="relative">
@@ -97,7 +97,7 @@
             </form>
 
             <ul class="flex items-center gap-2">
-                <li class="md:hidden">
+                <li class="lg:hidden">
                     <x-button variant="icon"
                               title="Search"
                               data-modal-target="search-modal"

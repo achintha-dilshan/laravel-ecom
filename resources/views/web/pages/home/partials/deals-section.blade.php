@@ -1,8 +1,8 @@
 <section class="my-10 sm:my-20">
-    <div class="grid grid-cols-1 px-4 py-6 border-2 border-primary-700 md:grid-cols-2 lg:grid-cols-3 rounded-xl">
-        <div class="self-center col-span-1">
+    <div class="grid grid-cols-1 gap-4 px-4 py-6 border-2 border-primary-700 md:grid-cols-2 lg:grid-cols-5 rounded-xl">
+        <div class="self-center col-span-1 lg:col-span-2">
             <div class="flex flex-col items-center gap-6 p-4">
-                <h2 class="text-2xl font-bold text-gray-600 sm:text-3xl lg:text-4xl">Deals of the Day</h2>
+                <h2 class="text-2xl font-bold text-center text-gray-600 sm:text-3xl lg:text-4xl">Deals of the Day</h2>
                 <ul class="top-0 flex items-center gap-2 countdown"
                     data-countdown="2024-11-27">
                     <li class="p-3 bg-white rounded-md shadow-lg shadow-gray-100 min-w-16">
@@ -39,7 +39,7 @@
             </div>
         </div>
         {{-- deals slider --}}
-        <div class="col-span-1 lg:col-span-2">
+        <div class="col-span-1 lg:col-span-3">
             <x-web::swiper.container wrapperClass="pt-2 pb-8"
                                      :showPagination="true"
                                      data-config="{'slidesPerView': 2, 'spaceBetween': 16, 'autoplay': { 'delay': 3000 }, 'breakpoints': {'640': {'slidesPerView': 3},'768': {'slidesPerView': 2},'1024': {'slidesPerView': 3}}}">
