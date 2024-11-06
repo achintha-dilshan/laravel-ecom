@@ -14,14 +14,18 @@
 
 <body class="bg-gray-50">
     <div class="flex flex-col min-h-screen">
+        
         {{-- header --}}
         @include('web.partials.header')
+        
         {{-- navbar --}}
         @include('web.partials.navbar')
 
         {{-- content --}}
         <main class="grow">
-            {{ $slot }}
+            <div class="max-w-screen-xl px-4 mx-auto">
+                {{ $slot }}
+            </div>
         </main>
 
         {{-- feature section --}}
