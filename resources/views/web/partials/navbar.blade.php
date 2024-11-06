@@ -40,7 +40,7 @@
                     </div>
                     <input type="text"
                            id="default-search"
-                           class="block w-full p-2.5 px-12 text-sm text-gray-500 border border-gray-300 rounded-lg bg-transparent focus:outline-none focus:border-gray-300 focus:ring-offset-2 focus:ring-2 focus:ring-primary-500 transition ease-in-out duration-150"
+                           class="block w-full p-2.5 px-12 text-sm text-gray-500 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:border-gray-300 focus:ring-offset-2 focus:ring-2 focus:ring-primary-500 transition ease-in-out duration-150"
                            placeholder="Search for products..."
                            required />
                     <button type="button"

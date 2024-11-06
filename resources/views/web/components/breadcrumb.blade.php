@@ -1,4 +1,4 @@
-<nav class="my-4"
+<nav class="mt-8 mb-6"
      aria-label="Breadcrumb">
     <ol class="inline-flex flex-wrap items-center gap-2">
         <li class="inline-flex items-center">
