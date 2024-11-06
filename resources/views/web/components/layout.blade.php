@@ -21,13 +21,11 @@
 
         {{-- content --}}
         <main class="grow">
-            <div class="max-w-screen-xl px-4 mx-auto">
-                {{ $slot }}
-
-                {{-- feature section --}}
-                @include('web.partials.feature-section')
-            </div>
+            {{ $slot }}
         </main>
+
+        {{-- feature section --}}
+        @include('web.partials.feature-section')
 
         {{-- newsletter section --}}
         @include('web.partials.newsletter-section')
