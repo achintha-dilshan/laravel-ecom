@@ -1,4 +1,4 @@
-<nav class="sticky top-0 z-20 w-full bg-white border-b border-gray-200 start-0">
+<nav class="sticky top-0 z-20 w-full bg-white shadow start-0">
     <div class="flex items-center justify-between max-w-screen-xl gap-4 p-4 mx-auto lg:space-x-12">
         <div class="flex items-center gap-4">
             <div class="shrink-0 lg:hidden">
@@ -40,7 +40,7 @@
                     </div>
                     <input type="text"
                            id="default-search"
-                           class="block w-full p-2.5 px-12 text-sm text-gray-500 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:border-gray-300 focus:ring-offset-2 focus:ring-2 focus:ring-primary-500 transition ease-in-out duration-150"
+                           class="block w-full p-2.5 px-12 text-sm text-gray-500 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:border-gray-300 focus:ring-offset-2 focus:ring-2 focus:ring-primary-700 transition ease-in-out duration-150"
                            placeholder="Search for products..."
                            required />
                     <button type="button"

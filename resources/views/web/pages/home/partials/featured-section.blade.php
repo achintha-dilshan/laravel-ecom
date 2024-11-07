@@ -4,7 +4,7 @@
                              data-config="{'slidesPerView': 1, 'spaceBetween': 16, 'autoplay': true, 'breakpoints': {'640': {'slidesPerView': 2},'1024': {'slidesPerView': 3, 'autoplay': false, 'pagination': false}}}">
         @for ($i = 0; $i < 3; $i++)
             <x-swiper.slide>
-                <div class="p-4 bg-white rounded-lg shadow-lg shadow-gray-100">
+                <div class="p-4 bg-white rounded-lg shadow-sm">
                     <div class="flex gap-4">
                         <div class="w-full aspect-[4/3] overflow-clip rounded-md max-h-36 max-w-48">
                             <picture>

@@ -14,7 +14,7 @@
                     <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                         <x-lucide-mail class="w-5 h-5 text-gray-500" />
                     </div>
-                    <input class="block w-full p-2.5 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-500 focus:border-primary-500"
+                    <input class="block w-full p-2.5 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white shadow-inner focus:outline-none focus:border-gray-300 focus:ring-offset-2 focus:ring-2 focus:ring-primary-700 transition ease-in-out duration-150"
                            placeholder="Enter your email"
                            type="email"
                            id="email"
