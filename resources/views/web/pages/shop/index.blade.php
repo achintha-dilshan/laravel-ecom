@@ -36,4 +36,7 @@
         </div>
     </div>
 
+    {{-- mobile drawer --}}
+    @include('web.pages.shop.partials.mobile-drawer')
+
 </x-web::layout>
