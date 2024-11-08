@@ -19,7 +19,7 @@
                             </picture>
                         </div>
                         <div class="flex flex-col">
-                            <h4 class="mb-4 text-lg font-semibold text-gray-600 uppercase">Lorem ipsum dolor sit
+                            <h4 class="mb-4 text-lg font-semibold text-gray-700 uppercase">Lorem ipsum dolor sit
                                 amet.
                             </h4>
                             <x-web::section-button>Shop Now</x-web::section-button>

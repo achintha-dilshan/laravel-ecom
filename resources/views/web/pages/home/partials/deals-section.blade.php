@@ -2,33 +2,33 @@
     <div class="grid grid-cols-1 gap-4 px-4 py-6 border-2 border-primary-700 md:grid-cols-2 lg:grid-cols-5 rounded-xl">
         <div class="self-center col-span-1 lg:col-span-2">
             <div class="flex flex-col items-center gap-6 p-4">
-                <h2 class="text-2xl font-bold text-center text-gray-600 sm:text-3xl lg:text-4xl">Deals of the Day</h2>
+                <h2 class="text-2xl font-bold text-center text-gray-700 sm:text-3xl lg:text-4xl">Deals of the Day</h2>
                 <ul class="top-0 flex items-center gap-2 countdown"
                     data-countdown="2024-11-27">
                     <li class="p-3 bg-white rounded-md shadow-sm min-w-16">
                         <div class="flex flex-col items-center">
-                            <span class="text-lg font-semibold text-gray-600"
+                            <span class="text-lg font-semibold text-gray-700"
                                   data-days>00</span>
                             <span class="text-sm text-gray-500">Days</span>
                         </div>
                     </li>
                     <li class="p-3 bg-white rounded-md shadow-sm min-w-16">
                         <div class="flex flex-col items-center">
-                            <span class="text-lg font-semibold text-gray-600"
+                            <span class="text-lg font-semibold text-gray-700"
                                   data-hours>00</span>
                             <span class="text-sm text-gray-500">Hours</span>
                         </div>
                     </li>
                     <li class="p-3 bg-white rounded-md shadow-sm min-w-16">
                         <div class="flex flex-col items-center">
-                            <span class="text-lg font-semibold text-gray-600"
+                            <span class="text-lg font-semibold text-gray-700"
                                   data-minutes>00</span>
                             <span class="text-sm text-gray-500">Mins</span>
                         </div>
                     </li>
                     <li class="p-3 bg-white rounded-md shadow-sm min-w-16">
                         <div class="flex flex-col items-center">
-                            <span class="text-lg font-semibold text-gray-600"
+                            <span class="text-lg font-semibold text-gray-700"
                                   data-seconds>00</span>
                             <span class="text-sm text-gray-500">Sec</span>
                         </div>

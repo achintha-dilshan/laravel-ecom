@@ -7,7 +7,7 @@
                     <img src="https://flowbite.com/docs/images/logo.svg"
                          class="h-8 mr-3"
                          alt="FlowBite Logo" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap ">Flowbite</span>
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span>
                 </a>
 
                 <p class="max-w-md mx-0 my-6 text-sm text-left text-gray-500 sm:mx-auto sm:text-center lg:text-left lg:mx-0">
@@ -17,7 +17,7 @@
                 <!-- Social Icons-->
                 <div class="flex items-center justify-start gap-6 mb-6 sm:justify-center lg:justify-start">
                     <a href="#"
-                       class="text-gray-500 hover:text-gray-700 ">
+                       class="text-gray-500 hover:text-primary-700">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -28,7 +28,7 @@
                         </svg>
                     </a>
                     <a href="#"
-                       class="text-gray-500 hover:text-primary-600 ">
+                       class="text-gray-500 hover:text-primary-700">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -39,7 +39,7 @@
                         </svg>
                     </a>
                     <a href="#"
-                       class="text-gray-500 hover:text-primary-600 ">
+                       class="text-gray-500 hover:text-primary-700">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -49,7 +49,7 @@
                         </svg>
                     </a>
                     <a href="#"
-                       class="text-gray-500 hover:text-primary-600 ">
+                       class="text-gray-500 hover:text-primary-700">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -60,7 +60,7 @@
                         </svg>
                     </a>
                     <a href="#"
-                       class="text-gray-500 hover:text-primary-600 ">
+                       class="text-gray-500 hover:text-primary-700">
                         <svg class="w-5 h-5"
                              fill="currentColor"
                              viewBox="0 0 24 24"
@@ -78,19 +78,19 @@
                 <ul class="text-sm text-gray-500">
                     <li class="mb-3">
                         <a href="#"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Electronics</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">Electronics</a>
                     </li>
                     <li class="mb-3">
                         <a href="#"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Health &amp; Beauty</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">Health &amp; Beauty</a>
                     </li>
                     <li class="mb-3">
                         <a href="#"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Clothing</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">Clothing</a>
                     </li>
                     <li class="mb-3">
                         <a href="#"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Kitchen &amp; Dining</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">Kitchen &amp; Dining</a>
                     </li>
                 </ul>
             </div>
@@ -99,19 +99,19 @@
                 <ul class="text-sm text-gray-500">
                     <li class="mb-3">
                         <a href="#"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Profile</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">Profile</a>
                     </li>
                     <li class="mb-3">
                         <a href="/cart"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">View Cart</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">View Cart</a>
                     </li>
                     <li class="mb-3">
                         <a href="/wishlist"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">My Wishlist</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">My Wishlist</a>
                     </li>
                     <li class="mb-3">
                         <a href="/orders"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">My Orders</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">My Orders</a>
                     </li>
                 </ul>
             </div>
@@ -120,19 +120,19 @@
                 <ul class="text-sm text-gray-500">
                     <li class="mb-3">
                         <a href="/about"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">About Us</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">About Us</a>
                     </li>
                     <li class="mb-3">
                         <a href="/contact"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Contact Us</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">Contact Us</a>
                     </li>
                     <li class="mb-3">
                         <a href="/privacy-and-policy"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">Privacy &amp; Policy</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">Privacy &amp; Policy</a>
                     </li>
                     <li class="mb-3">
                         <a href="/faq"
-                           class="duration-150 ease-in-out hover:underline hover:text-primary-500">FAQs</a>
+                           class="duration-150 ease-in-out hover:underline hover:text-primary-700">FAQs</a>
                     </li>
                 </ul>
             </div>
@@ -142,7 +142,7 @@
 
         <div class="mb-2 text-sm text-center text-gray-500 lg:mb-4">&copy; {{ date('Y') }} <a target="_blank"
                href="https://www.linkedin.com/in/achintha-dilshan/"
-               class="duration-150 ease-in-out hover:underline hover:text-primary-500">Achintha Dilshan</a>.
+               class="duration-150 ease-in-out hover:underline hover:text-primary-700">Achintha Dilshan</a>.
             All Rights Reserved.
         </div>
     </div>

@@ -5,16 +5,16 @@
             <ul class="items-center hidden text-sm text-gray-500 divide-x divide-solid md:flex">
                 <li>
                     <a href="/faq"
-                       class="px-4 transition duration-150 ease-in-out hover:underline hover:text-primary-500">FAQs</a>
+                       class="px-4 transition duration-150 ease-in-out hover:underline hover:text-primary-700">FAQs</a>
                 </li>
                 <li>
                     <a href="/about"
-                       class="px-4 transition duration-150 ease-in-out hover:underline hover:text-primary-500">About
+                       class="px-4 transition duration-150 ease-in-out hover:underline hover:text-primary-700">About
                         Us</a>
                 </li>
                 <li>
                     <a href="/contact"
-                       class="px-4 transition duration-150 ease-in-out hover:underline hover:text-primary-500">Contact
+                       class="px-4 transition duration-150 ease-in-out hover:underline hover:text-primary-700">Contact
                         Us</a>
                 </li>
             </ul>
