@@ -55,5 +55,5 @@ class SwiperSlider {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    new SwiperSlider(".swiper");
+    new SwiperSlider(".swiper:not(.no-init)");
 });
