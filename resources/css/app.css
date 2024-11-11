@@ -19,3 +19,8 @@
     -o-transition-timing-function: linear !important;
     transition-timing-function: linear !important;
 }
+
+/* product thumb slider */
+.product-thumb-slider .swiper-slide.swiper-slide-thumb-active {
+    @apply rounded-md ring-2 ring-gray-700 ring-offset-2;
+}

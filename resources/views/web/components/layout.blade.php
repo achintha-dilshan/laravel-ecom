@@ -10,14 +10,18 @@
     <title>Web</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    @isset($head)
+        {{ $head }}
+    @endisset
 </head>
 
 <body class="antialiased bg-gray-100">
     <div class="flex flex-col min-h-screen">
-        
+
         {{-- header --}}
         @include('web.partials.header')
-        
+
         {{-- navbar --}}
         @include('web.partials.navbar')
 
