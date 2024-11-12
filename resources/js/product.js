@@ -23,7 +23,7 @@ const getConfig = (obj) => {
 const productThumbSlider = new Swiper(
     ".product-thumb-slider",
     getConfig({
-        slidesPerView: 4,
+        slidesPerView: 5,
     })
 );
 

@@ -117,7 +117,7 @@
                     <x-button variant="icon"
                               title="Cart"
                               data-dropdown-toggle="cartDropdown">
-                        <x-lucide-shopping-bag class="w-5 h-5" />
+                        <x-lucide-shopping-cart class="w-5 h-5" />
                         <x-badge>2</x-badge>
                     </x-button>
                     @include('web.partials.cart-dropdown')
