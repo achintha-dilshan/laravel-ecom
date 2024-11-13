@@ -36,7 +36,8 @@
                 </div>
 
                 {{-- title --}}
-                <h1 class="my-2 text-2xl font-bold text-gray-700 lg:text-3xl">Lorem, ipsum dolor sit amet consectetur adipisicing
+                <h1 class="my-2 text-2xl font-bold text-gray-700 lg:text-3xl">Lorem, ipsum dolor sit amet consectetur
+                    adipisicing
                     elit.
                 </h1>
 
@@ -220,7 +221,8 @@
                 {{-- actions --}}
                 <div class="flex items-center gap-2">
                     <div>
-                        <x-button type="button">
+                        <x-button type="button"
+                                  title="Add to Cart">
                             <div class="flex items-center gap-2">
                                 <div class="text-xl">
                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -239,7 +241,7 @@
                         <x-button type="link"
                                   href="/wishlist"
                                   variant="secondary"
-                                  title="Wishlist"
+                                  title="Add to Wishlist"
                                   class="!px-4">
                             <x-lucide-heart class="w-5 h-5" />
                         </x-button>
@@ -248,6 +250,58 @@
             </div>
         </div>
     </div>
+
+    {{-- product description and reviews --}}
+    <div class="p-4 mt-12 border border-gray-300 rounded-xl">
+        <div class="mb-4 border-b border-gray-300">
+            <ul class="flex items-center justify-center -mb-px text-sm font-semibold"
+                id="tab"
+                data-tabs-toggle="#tab-content"
+                data-tabs-active-classes="text-primary-600 hover:text-primary-700 !border-primary-600 !border-b-2"
+                data-tabs-inactive-classes="text-gray-500 hover:text-gray-600 border-gray-300 border-b-2 border-transparent"
+                role="tablist">
+                <li role="presentation">
+                    <button class="inline-block p-4"
+                            id="description-tab"
+                            data-tabs-target="#description"
+                            type="button"
+                            role="tab"
+                            aria-controls="description"
+                            aria-selected="false">Description</button>
+                </li>
+                <li role="presentation">
+                    <button class="inline-block p-4"
+                            id="reviews-tab"
+                            data-tabs-target="#reviews"
+                            type="button"
+                            role="tab"
+                            aria-controls="reviews"
+                            aria-selected="false">Reviews</button>
+                </li>
+            </ul>
+        </div>
+        <div id="tab-content">
+            <div class="hidden p-4 rounded-lg bg-gray-50"
+                 id="description"
+                 role="tabpanel"
+                 aria-labelledby="description-tab">
+                <p class="text-sm text-gray-500">This is some placeholder content the <strong
+                            class="font-medium text-gray-800">Profile tab's associated
+                        content</strong>. Clicking another tab will toggle the visibility of this one for the next. The
+                    tab JavaScript swaps classes to control the content visibility and styling.</p>
+            </div>
+            <div class="hidden p-4 rounded-lg bg-gray-50"
+                 id="reviews"
+                 role="tabpanel"
+                 aria-labelledby="reviews-tab">
+                <p class="text-sm text-gray-500">This is some placeholder content the <strong
+                            class="font-medium text-gray-800">Dashboard tab's associated
+                        content</strong>. Clicking another tab will toggle the visibility of this one for the next. The
+                    tab JavaScript swaps classes to control the content visibility and styling.</p>
+            </div>
+        </div>
+    </div>
+
 
 
 </x-web::layout>
