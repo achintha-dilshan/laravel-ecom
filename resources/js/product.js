@@ -1,14 +1,16 @@
-// zoom product image
+// jquery-zoom
 import "../../node_modules/jquery/dist/jquery.min";
 import "jquery-zoom";
 
-$(".zoom").zoom();
-
-// product image slider with thumbs
+// swiper
 import Swiper from "swiper";
-import { Navigation, Thumbs } from "swiper/modules";
 // import Swiper and modules styles
+import { Navigation, Thumbs } from "swiper/modules";
 import "swiper/css";
+
+// gLightbox
+import GLightbox from "glightbox";
+import "../../node_modules/glightbox/dist/css/glightbox.css";
 
 const baseConfig = {
     modules: [Navigation, Thumbs],
@@ -39,3 +41,9 @@ const productSlider = new Swiper(
         },
     })
 );
+
+// zoom product image on hover
+$(".zoom").zoom();
+
+// init gLightbox
+GLightbox();
