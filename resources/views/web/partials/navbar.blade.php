@@ -24,8 +24,8 @@
                           title="Categories"
                           data-dropdown-toggle="categoryDropdown"
                           class="items-center hidden gap-2 lg:flex">
-                    <x-lucide-layout-grid class="w-5 h-5" />
-                    Categories
+                    <x-lucide-store class="w-5 h-5" />
+                    Shop
                 </x-button>
 
                 @include('web.partials.category-dropdown')
