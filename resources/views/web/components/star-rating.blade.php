@@ -1,4 +1,4 @@
-@props(['rating' => '0'])
+@props(['rating' => '0', 'count' => null])
 
 <div {{ $attributes->merge(['class' => 'flex items-center gap-2']) }}>
     <div class="relative inline-block overflow-hidden text-gray-200 align-middle">
@@ -7,7 +7,7 @@
              style="width: {{ $rating }}%">
         </div>
     </div>
-    @isset($count)
+    @if ($count !== null)
         <span class="text-xs text-gray-400">({{ $count }})</span>
-    @endisset
+    @endif
 </div>
