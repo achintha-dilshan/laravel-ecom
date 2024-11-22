@@ -3,7 +3,7 @@
 <div {{ $attributes->merge(['class' => 'flex items-center gap-2']) }}>
     <div class="relative inline-block overflow-hidden text-gray-200 align-middle">
         <div class="after:content-['★★★★★'] text-lg"></div>
-        <div class="absolute top-0 left-0 overflow-hidden whitespace-nowrap text-amber-500 after:content-['★★★★★'] text-lg"
+        <div class="absolute top-0 left-0 overflow-hidden whitespace-nowrap text-amber-400 after:content-['★★★★★'] text-lg"
              style="width: {{ $rating }}%">
         </div>
     </div>
