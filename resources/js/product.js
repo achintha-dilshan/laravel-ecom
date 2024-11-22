@@ -12,6 +12,10 @@ import "swiper/css";
 import GLightbox from "glightbox";
 import "../../node_modules/glightbox/dist/css/glightbox.css";
 
+// filepond
+import * as FilePond from "filepond";
+import "../../node_modules/filepond/dist/filepond.min.css";
+
 const baseConfig = {
     modules: [Navigation, Thumbs],
     loop: true,
@@ -46,4 +50,9 @@ const productSlider = new Swiper(
 $(".zoom").zoom();
 
 // init gLightbox
-GLightbox();
+new GLightbox();
+
+// filepond init
+FilePond.create(document.querySelector('input[type="file"]'), {
+    maxFiles: 2,
+});
