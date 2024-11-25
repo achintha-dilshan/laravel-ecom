@@ -13,3 +13,7 @@ Route::get('/shop', function () {
 Route::get('/product', function () {
     return view('web.pages.product.index');
 });
+
+Route::get('/account', function () {
+    return view('web.pages.account.index');
+});

@@ -58,7 +58,7 @@
             </ul>
         </div>
         <div id="tab-content">
-            <div class="hidden p-4 rounded-2xl bg-gray-50"
+            <div class="hidden p-4 rounded-lg bg-gray-50"
                  id="description"
                  role="tabpanel"
                  aria-labelledby="description-tab">
